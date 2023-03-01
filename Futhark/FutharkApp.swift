@@ -11,7 +11,7 @@ import SwiftUI
 struct FutharkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RouterView()
         }
     }
 }

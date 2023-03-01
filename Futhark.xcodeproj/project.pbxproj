@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD1C26F629AC1EB00019F520 /* Rune.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C26F529AC1EB00019F520 /* Rune.swift */; };
 		CDDCAA3F29AC1D90005B5BF6 /* FutharkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDCAA3E29AC1D90005B5BF6 /* FutharkApp.swift */; };
-		CDDCAA4129AC1D90005B5BF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDCAA4029AC1D90005B5BF6 /* ContentView.swift */; };
+		CDDCAA4129AC1D90005B5BF6 /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDCAA4029AC1D90005B5BF6 /* RouterView.swift */; };
 		CDDCAA4329AC1D91005B5BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDCAA4229AC1D91005B5BF6 /* Assets.xcassets */; };
 		CDDCAA4629AC1D91005B5BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDCAA4529AC1D91005B5BF6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		CD1C26F529AC1EB00019F520 /* Rune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rune.swift; sourceTree = "<group>"; };
 		CDDCAA3B29AC1D90005B5BF6 /* Futhark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Futhark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDCAA3E29AC1D90005B5BF6 /* FutharkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutharkApp.swift; sourceTree = "<group>"; };
-		CDDCAA4029AC1D90005B5BF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDDCAA4029AC1D90005B5BF6 /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
 		CDDCAA4229AC1D91005B5BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDCAA4529AC1D91005B5BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				CDDCAA3E29AC1D90005B5BF6 /* FutharkApp.swift */,
-				CDDCAA4029AC1D90005B5BF6 /* ContentView.swift */,
+				CDDCAA4029AC1D90005B5BF6 /* RouterView.swift */,
 				CDDCAA4229AC1D91005B5BF6 /* Assets.xcassets */,
 				CDDCAA4429AC1D91005B5BF6 /* Preview Content */,
 				CD1C26F529AC1EB00019F520 /* Rune.swift */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1C26F629AC1EB00019F520 /* Rune.swift in Sources */,
-				CDDCAA4129AC1D90005B5BF6 /* ContentView.swift in Sources */,
+				CDDCAA4129AC1D90005B5BF6 /* RouterView.swift in Sources */,
 				CDDCAA3F29AC1D90005B5BF6 /* FutharkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
