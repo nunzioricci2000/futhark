@@ -15,6 +15,14 @@ struct Keyboard: View {
 
 struct Keyboard_Previews: PreviewProvider {
     static var previews: some View {
-        Keyboard()
+        VStack {
+            Spacer()
+            VStack {
+                Keyboard()
+                Spacer(minLength: 78)
+            }
+                .frame(width: 390, height: 290)
+                .background(Color(hex: 0xABB0BC))
+        }
     }
 }
