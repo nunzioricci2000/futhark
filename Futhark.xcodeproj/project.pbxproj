@@ -14,6 +14,7 @@
 		CDDCAA4629AC1D91005B5BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDCAA4529AC1D91005B5BF6 /* Preview Assets.xcassets */; };
 		CDDDEEE429B2E85F00182F0F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */; };
 		CDDDEEE829B2E85F00182F0F /* FutharkKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CDDDEEE129B2E85F00182F0F /* FutharkKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDDDEEEE29B2E8C600182F0F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEED29B2E8C600182F0F /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		CDDDEEE129B2E85F00182F0F /* FutharkKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FutharkKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		CDDDEEE529B2E85F00182F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDDEEED29B2E8C600182F0F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */,
 				CDDDEEE529B2E85F00182F0F /* Info.plist */,
+				CDDDEEED29B2E8C600182F0F /* Keyboard.swift */,
 			);
 			path = FutharkKeyboard;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDDEEEE29B2E8C600182F0F /* Keyboard.swift in Sources */,
 				CDDDEEE429B2E85F00182F0F /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
