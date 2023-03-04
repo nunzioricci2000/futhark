@@ -9,7 +9,34 @@ import SwiftUI
 
 struct Keyboard: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Grid(horizontalSpacing: 6, verticalSpacing: 12) {
+            GridRow {
+                Color.white
+                Color.white
+                Color.white
+                Color.white
+            }
+            GridRow {
+                Color.white
+                Color.white
+                Color.white
+                Color.white
+            }
+            GridRow {
+                Color.white
+                Color.white
+                Color.white
+                Color.white
+            }
+            GridRow {
+                Color.white
+                Color.white
+                Color.white
+                Color.white
+            }
+        }
+        .padding(.vertical, 8)
+        .padding(.horizontal, 3)
     }
 }
 
