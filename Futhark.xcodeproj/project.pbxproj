@@ -15,6 +15,9 @@
 		CDDDEEE429B2E85F00182F0F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */; };
 		CDDDEEE829B2E85F00182F0F /* FutharkKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CDDDEEE129B2E85F00182F0F /* FutharkKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CDDDEEEE29B2E8C600182F0F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEED29B2E8C600182F0F /* Keyboard.swift */; };
+		CDDDEEF029B2EAD600182F0F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEED29B2E8C600182F0F /* Keyboard.swift */; };
+		CDDDEEF329B2EC9900182F0F /* Color+HexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */; };
+		CDDDEEF429B2EF5100182F0F /* Color+HexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,7 @@
 		CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		CDDDEEE529B2E85F00182F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDDEEED29B2E8C600182F0F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HexInit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		CDDCAA3229AC1D90005B5BF6 = {
 			isa = PBXGroup;
 			children = (
+				CDDDEEF129B2EC5E00182F0F /* Utils */,
 				CDDCAA3D29AC1D90005B5BF6 /* Futhark */,
 				CDDDEEE229B2E85F00182F0F /* FutharkKeyboard */,
 				CDDCAA3C29AC1D90005B5BF6 /* Products */,
@@ -118,6 +123,14 @@
 				CDDDEEED29B2E8C600182F0F /* Keyboard.swift */,
 			);
 			path = FutharkKeyboard;
+			sourceTree = "<group>";
+		};
+		CDDDEEF129B2EC5E00182F0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,8 @@
 			files = (
 				CD1C26F629AC1EB00019F520 /* Rune.swift in Sources */,
 				CDDCAA4129AC1D90005B5BF6 /* RouterView.swift in Sources */,
+				CDDDEEF029B2EAD600182F0F /* Keyboard.swift in Sources */,
+				CDDDEEF429B2EF5100182F0F /* Color+HexInit.swift in Sources */,
 				CDDCAA3F29AC1D90005B5BF6 /* FutharkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +247,7 @@
 			files = (
 				CDDDEEEE29B2E8C600182F0F /* Keyboard.swift in Sources */,
 				CDDDEEE429B2E85F00182F0F /* KeyboardViewController.swift in Sources */,
+				CDDDEEF329B2EC9900182F0F /* Color+HexInit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
