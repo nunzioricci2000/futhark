@@ -18,6 +18,7 @@
 		CDDDEEF029B2EAD600182F0F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEED29B2E8C600182F0F /* Keyboard.swift */; };
 		CDDDEEF329B2EC9900182F0F /* Color+HexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */; };
 		CDDDEEF429B2EF5100182F0F /* Color+HexInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */; };
+		CDDDEEF729B377B300182F0F /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDDEEF629B377B300182F0F /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		CDDDEEE529B2E85F00182F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDDDEEED29B2E8C600182F0F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HexInit.swift"; sourceTree = "<group>"; };
+		CDDDEEF629B377B300182F0F /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CDDDEEE329B2E85F00182F0F /* KeyboardViewController.swift */,
 				CDDDEEE529B2E85F00182F0F /* Info.plist */,
 				CDDDEEED29B2E8C600182F0F /* Keyboard.swift */,
+				CDDDEEF529B2F2D800182F0F /* Keyboard */,
 			);
 			path = FutharkKeyboard;
 			sourceTree = "<group>";
@@ -131,6 +134,14 @@
 				CDDDEEF229B2EC9900182F0F /* Color+HexInit.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDDDEEF529B2F2D800182F0F /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CDDDEEF629B377B300182F0F /* Key.swift */,
+			);
+			path = Keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDDEEEE29B2E8C600182F0F /* Keyboard.swift in Sources */,
+				CDDDEEF729B377B300182F0F /* Key.swift in Sources */,
 				CDDDEEE429B2E85F00182F0F /* KeyboardViewController.swift in Sources */,
 				CDDDEEF329B2EC9900182F0F /* Color+HexInit.swift in Sources */,
 			);

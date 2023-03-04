@@ -10,29 +10,12 @@ import SwiftUI
 struct Keyboard: View {
     var body: some View {
         Grid(horizontalSpacing: 6, verticalSpacing: 12) {
-            GridRow {
-                Color.white
-                Color.white
-                Color.white
-                Color.white
-            }
-            GridRow {
-                Color.white
-                Color.white
-                Color.white
-                Color.white
-            }
-            GridRow {
-                Color.white
-                Color.white
-                Color.white
-                Color.white
-            }
-            GridRow {
-                Color.white
-                Color.white
-                Color.white
-                Color.white
+            ForEach(1...4, id: \.self) { _ in
+                GridRow {
+                    ForEach(1...8, id: \.self) { _ in
+                        Color.white
+                    }
+                }
             }
         }
         .padding(.vertical, 8)
@@ -48,8 +31,9 @@ struct Keyboard_Previews: PreviewProvider {
                 Keyboard()
                 Spacer(minLength: 78)
             }
-                .frame(width: 390, height: 290)
+            .frame(width: .infinity, height: 290)
                 .background(Color(hex: 0xABB0BC))
         }
+        .previewLayout(.fixed(width: 390, height: 290))
     }
 }
